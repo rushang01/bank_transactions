@@ -1,0 +1,59 @@
+{% load static %}
+
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'styles.css'%}">
+       
+
+    </head>
+
+    <body>
+        <header>
+            <div class="container container-flex">
+                <div class="site-title">
+                    <h1> SecuRide Bank </h1>
+                    <p class="subtitle"> A bank for all your needs</p>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="" class="current-page"> Home </a></li>
+                        <li><a href="{% url 'about-us'%}"> About us</a></li>
+                        <li><a href="{% url 'transact'%}"> Transact </a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+
+        <div class="container container-flex">
+            <main role="main"> 
+                <article class="article-featured">
+                    <h2 class="article-title">Welcome to SecuRide Bank!!!</h2>
+                    <img src="/static/notes.jpg" alt="simple bank notes" class="article-image">
+                    <p class="article-body"><strong>Life can get complicated really quickly</strong>, but it doesn't have to be! There are many ways to simplify your life, <a href="{% url 'about-us'%}"">(here's our motto!)</a>. We aim to make transactions as simple and safe as possible.</p>
+                </article>
+
+                
+                </article>
+
+
+            </main>
+
+
+            <aside class="sidebar">
+                
+
+            </aside>
+        </div>
+
+
+
+        <footer>
+            <p><strong>SecuRideBank</strong></p>
+            <p>Copyright 2020</p>
+        </footer>
+
+
+    </body>
+</html>
