@@ -1,0 +1,55 @@
+.main_title {
+    font-family: 'Lora', 'serif';
+    font-weight: 400;
+    color: #143774;
+    margin-top: 0;
+    text-align: center;
+}
+
+.remove_style{
+    color:#143774;
+
+    text-decoration: none;
+}
+
+.remove_style:hover{
+    color: #143774;
+    text-decoration: none;
+}
+
+.subtitle{
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
+}
+
+form{
+    max-width: 1000px;
+    width:100%;
+    margin:auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 3px solid whitesmoke ;
+    background-color: aliceblue;
+
+}
+
+.new{
+    max-width: 1000px;
+    width:90%;
+    margin:auto;
+}
+
+.label_color{
+    color:black;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+}
+
+
+
+
+
+
+
